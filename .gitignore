@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# AWS
+.aws/
+*.pem
+
+# Environment variables
+.env
+.env.*
+
+# Terraform (if ever stored locally)
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.tfvars
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.key
+*.secret
+secrets.json
+
+# Lambda build artifacts
+*.zip
+dist/
+build/
