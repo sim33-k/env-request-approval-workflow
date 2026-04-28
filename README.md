@@ -1,4 +1,4 @@
-# Environment Up — Email Approval Workflow
+# Environment Request Automation
 
 A serverless approval system that lets DevOps engineers approve or deny environment startup requests directly from their inbox, no need to be online when a developer sends a request at odd hours.
 
@@ -178,8 +178,8 @@ The token maps to the approval record in S3. Once actioned, replaying the same l
 
 ## Security
 
-- Approval links are single-use — the executor rejects any replay once a token has been actioned
-- The token is a UUID generated at parse time — not guessable or enumerable
+- Approval links are single-use, the executor rejects any replay once a token has been actioned
+- The token is a UUID generated at parse time, not guessable or enumerable
 - SES sender verification ensures only emails from verified addresses trigger the workflow
 
 ---
